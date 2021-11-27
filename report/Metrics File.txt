@@ -1,0 +1,42 @@
+Features:
+Genres
+Danceability
+Energy
+Key
+Loudness
+Mode
+Speechiness
+Acousticness
+Instrumentalness
+Liveness
+Valence
+Tempo
+Duration (ms)
+Time Signature
+
+Random Forest Parameters:
+{'bootstrap': True,
+ 'max_depth': 10,
+ 'max_features': 'sqrt',
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 3,
+ 'n_estimators': 750}
+
+Performance Metrics:
+Accuracy Score: 0.888647866955893Mean 
+Test Data CV: 0.7250577198821099
+Mean Training Data CV: 0.6703967094312155
+
+Confusion Matrix:
+[[1228    1]
+ [ 153    1]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.89      1.00      0.94      1229
+           1       0.50      0.01      0.01       154
+
+    accuracy                           0.89      1383
+   macro avg       0.69      0.50      0.48      1383
+weighted avg       0.85      0.89      0.84      1383
